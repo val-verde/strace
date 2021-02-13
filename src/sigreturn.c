@@ -14,7 +14,7 @@
 # include <asm/sigcontext.h>
 #endif
 
-static inline void
+inline void
 print_sigmask_addr_size(const void *const addr, const unsigned int size)
 {
 	tprint_struct_begin();
